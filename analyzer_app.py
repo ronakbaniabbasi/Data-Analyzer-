@@ -14,7 +14,7 @@ st.title("⚡ AI-Powered Smart Grid Analyzer")
 st.write("Upload a dataset and explore clustering + regression for renewable energy distribution.")
 
 # File uploader
-uploaded_file = st.file_uploader("Upload your dataset (CSV)", type=["csv"])
+uploaded_file = st.file_uploader("energy_data.csv", type=["csv"])
 
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
