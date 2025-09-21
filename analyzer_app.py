@@ -45,7 +45,7 @@ if uploaded_file:
         ax.set_ylabel(features[1])
         st.pyplot(fig)
     else:
-        st.warning("⚠️ Please select at least 2 features for clustering.")
+        st.warning(" Please select at least 2 features for clustering.")
 
     # -------------------------
     # Regression Section
