@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 # Streamlit UI
 # -------------------------
 st.set_page_config(page_title="AI Smart Grid Analyzer", layout="wide")
-st.title("⚡ AI-Powered Smart Grid Analyzer")
+st.title("⚡ Smart Grid Analyzer")
 st.write("Upload a dataset and explore clustering + regression for renewable energy distribution.")
 
 # File uploader
