@@ -79,3 +79,5 @@ if uploaded_file:
         st.info("Please select predictors to run regression.")
 else:
     st.info("⬆️ Please upload a CSV dataset to begin.")
+
+print("By Ronak Baniabbasi")
